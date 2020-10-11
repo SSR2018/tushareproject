@@ -46,5 +46,5 @@ class MyTushare:
             return df
         else:
             return df
-mt = MyTushare(token = 'e8df84bd1b25a8a2a2ceb7edf7ad41f2c3a1d3ec604bb8abd40321f4')
+mt = MyTushare(token = '')
 print(mt.daily(ts_code='600000.SH', start_date='20180701', end_date='20190701'))
