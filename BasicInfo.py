@@ -194,7 +194,12 @@ class MyTushare:
             return df
         else:
             return df
+<<<<<<< HEAD
 
 if __name__ == "__main__":
     mt = MyTushare(token = 'e8df84bd1b25a8a2a2ceb7edf7ad41f2c3a1d3ec604bb8abd40321f4')
     data = mt.daily(ts_code='300001.SZ', start_date='20190701', end_date='20200701',drawkline=True)
+=======
+mt = MyTushare(token = '')
+print(mt.daily(ts_code='600000.SH', start_date='20180701', end_date='20190701'))
+>>>>>>> 146f08681006600303f313ea572b1bba1da93199
